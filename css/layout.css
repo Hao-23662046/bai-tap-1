@@ -1,0 +1,50 @@
+body
+{
+    margin: 0;
+
+}
+.navbar {
+    background-color: #b22d30;
+    height: 52px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.navbar ul {
+    list-style: none;
+    display: flex;
+}
+
+.navbar ul li {
+    position: relative;
+    padding: 0 20px;
+    line-height: 52px;
+    color: white;
+    font-size: 16px;
+}
+
+.navbar ul li:hover {
+    background-color: #a11f22;
+}
+.navbar ul li ul {
+    display: none;
+    position: absolute;
+    top: 52px;
+    left: 0;
+    background-color: #b22d30;
+    min-width: 220px;
+}
+
+.navbar ul li:hover ul {
+    display: block;
+}
+
+.navbar ul li ul li {
+    padding: 10px;
+    line-height: normal;
+}
+
+.navbar ul li ul li:hover {
+    background-color: #8e1a1d;
+}
